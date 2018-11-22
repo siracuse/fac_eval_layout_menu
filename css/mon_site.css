@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-burger {
+  text-align: center;
+}
+
+.menu-burger img {
+  width: 150px;
+}
+
+.menu {
+  text-align: center;
+  list-style-type: none;
+}
+
+.menu li {
+  background-color: #963c3c;
+  padding: 10px;
+}
+
+.menu li:hover {
+  background-color: #4d1f1f;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.menu .menu-img {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .menu-burger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  .menu .menu-img {
+    display: inline-block;
+  }
+  .menu .menu-img img {
+    width: 40px;
+    height: 30px;
+  }
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.text h1 {
+  background-color: #252525;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=mon_site.css.map */

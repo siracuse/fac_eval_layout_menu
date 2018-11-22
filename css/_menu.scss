@@ -1,0 +1,42 @@
+.menu-burger {
+	text-align: center;
+	img {
+		width: 150px;
+	}
+}
+.menu {
+	text-align: center;
+    list-style-type: none;
+    li {
+        background-color: $black;
+        padding: 10px;
+        &:hover {
+            background-color: darken($black, 20%);
+        }
+    }
+	a {
+        text-decoration: none;
+        font-size: 24px;
+        color: $white;
+    }    
+    .menu-img {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .menu-burger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        .menu-img {
+            display: inline-block;
+        }
+        .menu-img img {
+            width: 40px;
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+// COULEUR
+$black: #963c3c;
+$white: #FFFFFF;
+$grey: #707070;
+$lightgrey: #252525;
+
+// RESET CSS
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import 'menu';
+@import 'layout';
