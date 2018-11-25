@@ -3,15 +3,28 @@
   padding: 0;
 }
 
-.menu-burger {
+label {
+  cursor: pointer;
+}
+
+label .menu-burger {
   text-align: center;
 }
 
-.menu-burger img {
+label .menu-burger img {
   width: 150px;
 }
 
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + .menu {
+  display: block;
+}
+
 .menu {
+  display: none;
   text-align: center;
   list-style-type: none;
 }
@@ -62,22 +75,10 @@ body {
 }
 
 .text h1 {
-  background-color: #252525;
+  background-color: #333333;
   padding: 10px;
   margin-top: 20px;
-  font-size: 20px;
-}
-
-@media all and (min-width: 768px) {
-  .text h1 {
-    font-size: 30px;
-  }
-}
-
-@media all and (min-width: 992px) {
-  .text h1 {
-    font-size: 40px;
-  }
+  font-size: 3.5vw;
 }
 
 /*# sourceMappingURL=mon_site.css.map */

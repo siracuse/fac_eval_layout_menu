@@ -1,10 +1,20 @@
-.menu-burger {
-	text-align: center;
-	img {
-		width: 150px;
-	}
+label {
+    cursor: pointer;
+    .menu-burger {
+        text-align: center;
+        img {
+            width: 150px;
+        }  
+    }
+}
+#menu-toggle {
+    display: none;
+    &:checked + .menu {
+        display: block;
+    } 
 }
 .menu {
+    display: none;
 	text-align: center;
     list-style-type: none;
     li {

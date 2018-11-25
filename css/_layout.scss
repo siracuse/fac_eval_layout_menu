@@ -7,21 +7,9 @@ body {
     justify-content: center;
     color: $white;
     h1 {
-        background-color: $lightgrey;
+        background-color: darken($white, 80%);
         padding: 10px;
         margin-top: 20px;
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 768px) {
-    .text h1 {
-        font-size: 30px;
-    }
-}
-
-@media all and (min-width: 992px) {
-    .text h1 {
-        font-size: 40px;
+        font-size: 3.5vw;
     }
 }
