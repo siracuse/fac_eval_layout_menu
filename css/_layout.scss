@@ -10,9 +10,18 @@ body {
         background-color: $lightgrey;
         padding: 10px;
         margin-top: 20px;
+        font-size: 20px;
     }
 }
 
-// @media all and (min-width) {
+@media all and (min-width: 768px) {
+    .text h1 {
+        font-size: 30px;
+    }
+}
 
-// }
+@media all and (min-width: 992px) {
+    .text h1 {
+        font-size: 40px;
+    }
+}

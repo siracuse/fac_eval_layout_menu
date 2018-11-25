@@ -8,10 +8,10 @@
 	text-align: center;
     list-style-type: none;
     li {
-        background-color: $black;
+        background-color: $red;
         padding: 10px;
         &:hover {
-            background-color: darken($black, 20%);
+            background-color: darken($red, 20%);
         }
     }
 	a {
@@ -19,7 +19,7 @@
         font-size: 24px;
         color: $white;
     }    
-    .menu-img {
+    img {
         display: none;
     }
 }
@@ -31,10 +31,8 @@
     .menu {
         display: flex;
         justify-content: center;
-        .menu-img {
+        img {
             display: inline-block;
-        }
-        .menu-img img {
             width: 40px;
             height: 30px;
         }

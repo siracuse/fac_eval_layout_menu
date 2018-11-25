@@ -31,7 +31,7 @@
   color: #FFFFFF;
 }
 
-.menu .menu-img {
+.menu img {
   display: none;
 }
 
@@ -43,10 +43,8 @@
     display: flex;
     justify-content: center;
   }
-  .menu .menu-img {
+  .menu img {
     display: inline-block;
-  }
-  .menu .menu-img img {
     width: 40px;
     height: 30px;
   }
@@ -67,6 +65,19 @@ body {
   background-color: #252525;
   padding: 10px;
   margin-top: 20px;
+  font-size: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .text h1 {
+    font-size: 30px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .text h1 {
+    font-size: 40px;
+  }
 }
 
 /*# sourceMappingURL=mon_site.css.map */
