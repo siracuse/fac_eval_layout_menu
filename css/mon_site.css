@@ -71,6 +71,8 @@ body {
 .text {
   display: flex;
   justify-content: center;
+  height: 70vh;
+  align-items: center;
   color: #FFFFFF;
 }
 

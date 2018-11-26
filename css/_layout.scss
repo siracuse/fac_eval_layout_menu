@@ -5,6 +5,8 @@ body {
 .text {
     display: flex;
     justify-content: center;
+    height: 70vh;
+    align-items: center;
     color: $white;
     h1 {
         background-color: darken($white, 80%);
